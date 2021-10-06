@@ -67,3 +67,17 @@
   height: 50px;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .box2 {
+    display: block;
+    width: 100%;
+  }
+  .item {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  .item:last-child {
+    margin: auto;
+  }
+}
